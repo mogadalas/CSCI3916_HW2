@@ -23,6 +23,8 @@ app.use(passport.initialize());
 
 var router = express.Router();
 
+//scaffolding project
+//contains the method to help create the JSON object required for the HTTP response
 function getJSONObjectForMovieRequirement(req) {
     var json = {
         headers: "No headers",
